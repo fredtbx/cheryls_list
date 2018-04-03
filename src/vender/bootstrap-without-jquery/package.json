@@ -1,0 +1,66 @@
+{
+  "_from": "bootstrap-without-jquery",
+  "_id": "bootstrap-without-jquery@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-oey8Jjrva7rX2AwNAvWzrDqaSbA=",
+  "_location": "/bootstrap-without-jquery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-without-jquery",
+    "name": "bootstrap-without-jquery",
+    "escapedName": "bootstrap-without-jquery",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-without-jquery/-/bootstrap-without-jquery-1.0.5.tgz",
+  "_shasum": "a1ecbc263aef6bbad7d80c0d02f5b3ac3a9a49b0",
+  "_spec": "bootstrap-without-jquery",
+  "_where": "C:\\Users\\fredtbx\\Documents\\React\\play\\cheryls_list",
+  "author": {
+    "name": "Ivan Gabriele"
+  },
+  "bugs": {
+    "url": "https://github.com/ivangabriele/bootstrap-without-jquery/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Lightweight script to replace jQuery for simple interactions when using Twitter Bootstrap.",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "uglify-js": "^2.7.5"
+  },
+  "homepage": "https://github.com/ivangabriele/bootstrap-without-jquery",
+  "keywords": [
+    "bootstrap",
+    "jquery",
+    "es6",
+    "es2015"
+  ],
+  "license": "MIT",
+  "main": "dist/bootstrap-without-jquery.js",
+  "name": "bootstrap-without-jquery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangabriele/bootstrap-without-jquery.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}

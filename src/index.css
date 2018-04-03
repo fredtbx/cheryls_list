@@ -1,0 +1,43 @@
+html, * {
+  box-sizing: border-box;
+}
+
+body, input {
+  font: caption;
+}
+
+input {
+  padding: 0.5em;
+  border: 1px solid steelblue;
+  background-color: #ccc;
+}
+
+.header {
+  /*display: table;*/
+  /*vertical-align: middle;*/
+  padding-top: 16px;
+  background-color: #4267b2;
+  color: #fff;
+  font-size: 1.5em;
+  height: 60px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+button, .button, input[type="submit"] {
+  background-color: #003366;
+  border: 1px solid steelblue;
+  color: white;
+  padding: 0.5em;
+  transition: all 0.2s;
+}
+button:hover, .button:hover, input[type="submit"]:hover {
+  background-color: steelblue;
+}
+button:active, .button:active, input[type="submit"]:active {
+  background-color: steelblue;
+}
+button.full-width, .button.full-width, input[type="submit"].full-width {
+  width: 100%;
+  margin: 1em 0;
+}
